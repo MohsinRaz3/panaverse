@@ -8,7 +8,7 @@ export default function page() {
     return (
         <header className='sticky top-0 z-10'>
             <Wrapper>
-                <div className='flex flex-wrap flex-grow bg-white  justify-between items-center px-2 min-[644px]:bg-slate-200 min-[644px]:rounded-md py-2 my-5 '>
+                <div className='flex flex-wrap flex-grow bg-white  justify-between items-center px-2 min-[644px]:bg-slate-200 min-[644px]:rounded-b-md  py-2 my-5 '>
                     <Link href='#'> <Image className=' inline h-15 w-20' src={panalogo} alt='logo' /></Link>
 
                     <ul className='w-[300px] text-sm min-[644px]:text-lg flex max-[554px]:mx-auto justify-center items-center space-x-3 sm:gap-x-15 order-last my-4'>

@@ -1,5 +1,6 @@
 import './globals.css'
 import Header from './components/layout/Header/page'
+import Footer from './components/widgets/Footer/page'
 export const metadata = {
   title: 'Panaverse',
   description: 'Panaverse Website',
@@ -17,7 +18,7 @@ export default function RootLayout({
         {/* Header */}
         <Header />
         {children}
-
+        <Footer />
       </body>
     </html>
   )
