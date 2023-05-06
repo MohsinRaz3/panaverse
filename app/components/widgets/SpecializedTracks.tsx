@@ -16,7 +16,7 @@ export const SpecializedTracks = () => {
                 {/* Header */}
                 <div>
                     <h2 className='text-4xl font-bold'>Specialized Tracks</h2>
-                    <p className='mt-3 text-lg text-slate-600 max-w-screen-sm'>After completing the first two quarters the participants will select one or more specializations consisting of two courses each:</p>
+                    <p className='mt-3 text-base sm:text-xl text-slate-600 max-w-screen-sm'>After completing the first two quarters the participants will select one or more specializations consisting of two courses each:</p>
                 </div>
                 {/* Content Left */}
                 <div className='mt-10 flex flex-col-reverse lg:flex-row  gap-x-6 gap-y-8'>
@@ -60,3 +60,4 @@ export const SpecializedTracks = () => {
         </section>
     )
 }
+
